@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## Welcome to my weebsite!
 
-You can use the [editor on GitHub](https://github.com/MeguminSama/anisite/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Here is where I will be hosting all my Anime-related projects!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### I am currently working on...
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+RandBooru - Randomly grabs (gel/safe)booru images based on tags
+Kibii.tv - A new take on Anime Streaming, a sleek new design
+AniSource - A source to get the latest anime episodes using direct file links.
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+http://kibii.tv - Still heavily in development - Don't expect it to always work. Repo is private currently but we are working on making it OSS!
 
-### Jekyll Themes
+Also visit my ~~quality~~ meme website @ https://krisdev.me
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MeguminSama/anisite/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### My waifu is megumin:
+![my waifu](http://images.goodsmile.info/cgm/images/product/20171208/6927/49118/large/9e92ee6dd8eaabac9c30e23494ab64c3.jpg)
