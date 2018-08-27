@@ -1,66 +1,69 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!doctype html>
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>The Anime Site</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#157878">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/cayman.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
 </head>
 
 <body>
-  <section class="page-header">
-    <h1 class="project-name">The Anime Site</h1>
-    <h2 class="project-tagline">Take a look at the anime-based projects I create!</h2>
-    <a href="https://github.com/MeguminSama/anisite/" target="_blank" class="btn">View on GitHub</a>
-    <a href="https://github.com/MeguminSama/anisite/archive/master.zip" target="_blank" class="btn">Download .zip</a>
-  </section>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<section>こんにちは！
+					<br> 「めぐみん」です！
+					<br>
+					<img src="megu.png" width="200px">
+					<br> &darr;
+				</section>
+				<section>
+					僕はプログラミングを楽しむ &rarr;
+				</section>
+			</section>
+			<section>
+				<section>
+					僕の日本語を許して下さい<br>
+					まだ、流暢ではない
+				</section>
+			</section>
+		</div>
+	</div>
 
-  <section class="main-content">
-    <h1>Welcome to my weebsite!</h1>
-    <p>
-      I'm an avid Node.JS developer and basically live off of Node at this point. Please help me ;-;
-    </p>
-    <h3>I am currently working on...</h2>
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
 
-      <pre><code>RandBooru - NodeJS package that randomly grabs (gel/safe)booru images based on tags
-Kibii.tv - A new take on Anime Streaming, a sleek new design
-AniSource - A source to get the latest anime episodes using direct file links.</code></pre>
-
-      <p>
-        <a href="http://kibii.tv/" target="_blank">http://kibii.tv</a> - Still heavily in development - Don't expect it to always work. Repo is private currently but
-        we are working on making it OSS!
-      </p>
-
-      <p>
-        Also visit my
-        <del>quality</del> meme website @
-        <a href="https://krisdev.me/" target="_blank">https://krisdev.me</a>. Trust me, it's quality!
-      </p>
-
-      <h3>My waifu is megumin:</h3>
-
-      <p>
-        <img src="http://images.goodsmile.info/cgm/images/product/20171208/6927/49118/large/9e92ee6dd8eaabac9c30e23494ab64c3.jpg"
-          alt="my waifu">
-      </p>
-      <p>
-          source: <a href="http://images.goodsmile.info/cgm/images/product/20171208/6927/49118/large/9e92ee6dd8eaabac9c30e23494ab64c3.jpg">http://images.goodsmile.info/cgm/images/product/20171208/6927/49118/large/9e92ee6dd8eaabac9c30e23494ab64c3.jpg</a>
-      </p>
-
-      <footer class="site-footer">
-        <span class="site-footer-owner">
-          <a href="https://github.com/MeguminSama/anisite">Anisite</a> is maintained by
-          <a href="https://github.com/MeguminSama">MeguminSama</a>.</span>
-        <span class="site-footer-credits">This theme was made by
-          <a href="https://jasonlong.github.io/cayman-theme/">https://jasonlong.github.io/cayman-theme/</a>. Many thanks!</span>
-      </footer>
-
-  </section>
-
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			controls: true,
+			controlsTutorial: true,
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+			]
+		});
+	</script>
 </body>
 
 </html>
